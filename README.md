@@ -18,3 +18,4 @@ This repository contains code for a mini-project on extending Variational Contin
   - The impact of different coreset sizes.
   - Average test RMSE over tasks.
   - Visualizations to study the effect of uncertainty-aware KL regularization and $\alpha$ on performance.
+  - And more!
