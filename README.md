@@ -10,11 +10,11 @@ This repository contains code for a mini-project on extending Variational Contin
   - **EWC:** Regularizes parameter updates using the Fisher Information Matrix.
 
 - **Experiments:**  
-  Models are trained sequentially on permuted versions of MNIST. Results include average test accuracy, RMSE, and accuracy curves across tasks. Hyperparameters such as coreset size, EWC lambda, and the UA-VCL hyperparameter $\alpha$ are varied to study their impact.
+  Models are trained sequentially on permuted versions of MNIST. Results include average test accuracy, RMSE, and accuracy curves across tasks. Hyperparameters such as coreset size, EWC lambda, and the UA-VCL hyperparameter $\alpha$ are varied to study their impact. The code also contains experiments on Split MNIST and generative settings.
 
 - **Visualizations:**  
   Plots are generated to illustrate:
   - Average test accuracy over tasks.
   - The impact of different coreset sizes.
   - Average test RMSE over tasks.
-  - Visualizations to study the effect of uncertainty-aware KL regularization and \(\alpha\) on performance.
+  - Visualizations to study the effect of uncertainty-aware KL regularization and $\alpha$ on performance.
